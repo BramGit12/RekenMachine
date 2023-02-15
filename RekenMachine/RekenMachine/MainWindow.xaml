@@ -1,0 +1,75 @@
+﻿<Window x:Class="RekenMachine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RekenMachine"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="535" Width="315" MinHeight="535" MinWidth="315">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="500"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Background="LightGray" Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.6*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.4*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.4*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="Display" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="4"  Background="Green" FontSize="27" Foreground="White"></TextBlock>
+            <TextBlock x:Name="Result" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="3" Background="Green" FontSize="18" Foreground="White"></TextBlock>
+
+            <Button x:Name="Button1" Grid.Column="1" Grid.Row="7" Click="GetInput">1</Button>
+            <Button x:Name="Button2" Grid.Column="2" Grid.Row="7" Click="GetInput">2</Button>
+            <Button x:Name="Button3" Grid.Column="3" Grid.Row="7"  Click="GetInput">3</Button>
+            <Button x:Name="Button4" Grid.Column="1" Grid.Row="6"  Click="GetInput">4</Button>
+            <Button x:Name="Button5" Grid.Column="2" Grid.Row="6"  Click="GetInput">5</Button>
+            <Button x:Name="Button6" Grid.Column="3" Grid.Row="6"  Click="GetInput">6</Button>
+            <Button x:Name="Button7" Grid.Column="1" Grid.Row="5"  Click="GetInput">7</Button>
+            <Button x:Name="Button8" Grid.Column="2" Grid.Row="5"  Click="GetInput">8</Button>
+            <Button x:Name="Button9" Grid.Column="3" Grid.Row="5"  Click="GetInput">9</Button>
+            <Button x:Name="ButtonNegative" Grid.Column="2" Grid.Row="8"  Click="GetInput">+-</Button>
+            <Button x:Name="ButtonComma" Grid.Column="3" Grid.Row="8"  Click="GetInput">,</Button>
+            <Button x:Name="Button0" Grid.Column="1" Grid.Row="8"  Click="GetInput">0</Button>
+
+            <Button x:Name="Div" Grid.Column="4" Grid.Row="4"  Click="GetInput">/</Button>
+            <Button x:Name="Times" Grid.Column="4" Grid.Row="5"  Click="GetInput">*</Button>
+            <Button x:Name="Minus" Grid.Column="4" Grid.Row="6"  Click="GetInput">-</Button>
+            <Button x:Name="Plus" Grid.Column="4" Grid.Row="7"  Click="GetInput">+</Button>
+            <Button x:Name="Calculate" Grid.Column="4" Grid.Row="8"  Click="GetInput">=</Button>
+
+            <Button x:Name="Clear" Grid.Column="4" Grid.Row="3" Click="GetInput">C</Button>
+            <Button x:Name="Memory" Grid.Column="3" Grid.Row="3" Click="GetInput" >M</Button>
+
+            <Button x:Name="Power" Grid.Column="3" Grid.Row="4" Click="GetInput" >^</Button>
+            <Button x:Name="Root" Grid.Column="2" Grid.Row="4"  Click="GetInput">√</Button>
+            <Button x:Name="DelSelected" Grid.Column="1" Grid.Row="4" Click="GetInput" >Del</Button>
+
+            <Button x:Name="MoveLeft" Grid.Column="1" Grid.Row="3" Click="GetInput" >&lt;</Button>
+            <Button x:Name="MoveRight" Grid.Column="2" Grid.Row="3" Click="GetInput" >></Button>
+        </Grid>
+    </Grid>
+</Window>
