@@ -61,15 +61,15 @@
             <Button x:Name="Plus" Grid.Column="4" Grid.Row="7"  Click="GetInput">+</Button>
             <Button x:Name="Calculate" Grid.Column="4" Grid.Row="8"  Click="GetInput">=</Button>
 
-            <Button x:Name="Clear" Grid.Column="4" Grid.Row="3" Click="GetInput">C</Button>
-            <Button x:Name="Memory" Grid.Column="3" Grid.Row="3" Click="GetInput" >M</Button>
+            <Button x:Name="Clear" Grid.Column="1" Grid.Row="4" Click="GetInput">C</Button>
+            <!--<Button x:Name="Memory" Grid.Column="3" Grid.Row="3" Click="GetInput" >M</Button>-->
 
             <Button x:Name="Power" Grid.Column="3" Grid.Row="4" Click="GetInput" >^</Button>
             <Button x:Name="Root" Grid.Column="2" Grid.Row="4"  Click="GetInput">√</Button>
-            <Button x:Name="DelSelected" Grid.Column="1" Grid.Row="4" Click="GetInput" >Del</Button>
+            <!--<Button x:Name="DelSelected" Grid.Column="1" Grid.Row="4" Click="GetInput" >Del</Button>-->
 
-            <Button x:Name="MoveLeft" Grid.Column="1" Grid.Row="3" Click="GetInput" >&lt;</Button>
-            <Button x:Name="MoveRight" Grid.Column="2" Grid.Row="3" Click="GetInput" >></Button>
+            <!--<Button x:Name="MoveLeft" Grid.Column="1" Grid.Row="3" Click="GetInput" >&lt;</Button>-->
+            <!--<Button x:Name="MoveRight" Grid.Column="2" Grid.Row="3" Click="GetInput" >></Button>-->
         </Grid>
     </Grid>
 </Window>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y12fl/zlR6x+In+Zb2eJAYUcRnr5ZDy2fAE+OmjZA7d+l8cxhGuRYjHHmRM3tqjDXRjwLdvvqrLOIzYoxVzFqQ==",
+  "dgSpecHash": "RZIibOng/FiivOiayOcnACczB2/9JgZDUPz7RwD99qLRr2wqb8QRQ5L9mb/lBkAiEtxJCN2NUBKeDJNZngcv0Q==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Programeren\\1.2\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
+  "projectFilePath": "C:\\GitRepos\\RekenMachine\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

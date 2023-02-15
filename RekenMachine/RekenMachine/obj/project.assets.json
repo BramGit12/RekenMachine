@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\Programeren\\1.2\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
+      "projectUniqueName": "C:\\GitRepos\\RekenMachine\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
       "projectName": "RekenMachine",
-      "projectPath": "C:\\Data\\Programeren\\1.2\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
+      "projectPath": "C:\\GitRepos\\RekenMachine\\RekenMachine\\RekenMachine\\RekenMachine.csproj",
       "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\Programeren\\1.2\\RekenMachine\\RekenMachine\\obj\\",
+      "outputPath": "C:\\GitRepos\\RekenMachine\\RekenMachine\\RekenMachine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
